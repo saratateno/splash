@@ -4,15 +4,23 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 .text-section .section-heading {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
-#about, #jobs {
+#about {
   background-color: #7b4397;
   color: white;
 }
 
-#about hr, #jobs hr {
+#about hr {
   border-color: white;
+}
+
+#jobs hr {
+  border-color: black;
+}
+
+#mc_embed_signup {
+  padding-top: 40px;
 }
 
 .contact a, .contact a:hover, .contact a:focus {
@@ -321,7 +329,8 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.jpg');
+  background-image: url('../testimages/6.jpg');
+  height: 590px;
   padding: 250px 0;
 }
 section.cta .cta-content {
@@ -343,7 +352,7 @@ section.cta .cta-content h2 {
 section.cta .overlay {
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
   left: 0;
