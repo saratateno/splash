@@ -3,6 +3,25 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+.text-section .section-heading {
+  margin-bottom: 50px;
+}
+#about, #jobs {
+  background-color: #7b4397;
+  color: white;
+}
+
+#about hr, #jobs hr {
+  border-color: white;
+}
+
+.contact a, .contact a:hover, .contact a:focus {
+  color: white;
+}
+.contact h3 {
+  padding-top: 20px;
+}
+
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
